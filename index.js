@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(time) {
   let time_split = time.split(":")
-  let time_concat =time_split[0].concant(time_split[1])
+  let time_concat =time_split[0].concat(time_split[1])
   let result = parseInt(time_concat,10)
 
   if (result <1200)
